@@ -3,19 +3,10 @@
 Hi there! I'm a university student at Bristol, with interests in quanutm computing, ML and HPC. Here's what I'm working on:
 [What's my github name about?](https://en.wikipedia.org/wiki/Tam_c%C3%BAc)
 
-## 🚀 Current Projects
-
-### **Projects**
-
-| In Progress                                | Personal Projects                              | University Projects                              |
-|:--------------------------------------------:|:------------------------------------------------:|:--------------------------------------------------:|
-|  |                |                              |
-| | |  |
-|                                            |                                                |                       |
-|                                            |                                                | |
-
 ## 💬 Let's Connect!
 Feel free to reach out if you'd like to collaborate or discuss any of the projects. Open to learning and growing together!
+
+## 🚀 Projects Below
 
 
 
