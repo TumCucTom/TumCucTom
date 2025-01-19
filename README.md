@@ -1,11 +1,8 @@
-![Profile GIF](hello.gif) 
-
 Hi there! I'm a university student at Bristol, with interests in quanutm computing, ML and HPC.
 
+[See my personal portfolio!](https://www.thomasbale.com)
+
 [What's my github name about?](https://en.wikipedia.org/wiki/Tam_c%C3%BAc)
-
-
-
 
 <!--
 **TumCucTom/TumCucTom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
