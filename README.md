@@ -1,20 +1,11 @@
-Hi there! I'm a university student at Bristol, with interests in quanutm computing, ML and HPC.
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
 
-[See my personal portfolio!](https://www.thomasbale.com)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Hello,+I+am+Thomas+Bale;www.thomasbale.com)](https://git.io/typing-svg)
 
-[What's my github name about?](https://en.wikipedia.org/wiki/Tam_c%C3%BAc)
 
-<!--
-**TumCucTom/TumCucTom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p style="text-align:center;">Hi there! I'm a university student at Bristol, with interests in quanutm computing, ML and HPC.</p>
 
-Here are some ideas to get you started:
+<a style="text-align:center;" href="https://en.wikipedia.org/wiki/Tam_c%C3%BAc">What's my github name about?</a>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h2 align="center"> Thanks for visiting my profile. </h2>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
