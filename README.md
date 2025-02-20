@@ -12,5 +12,5 @@
 </p>
 
 ## Thanks for visiting my profile. You can also checkout my [portfolio website](https://www.thomasbale.com)!
-<h2><a href="https://en.wikipedia.org/wiki/Tam_c%C3%BAc">P.S. What's my github name about?</a></h2>
+<h2>P.S.  <a href="https://en.wikipedia.org/wiki/Tam_c%C3%BAc">What's my github name about?</a></h2>
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
