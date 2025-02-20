@@ -117,7 +117,7 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
             defaultBranchRef {
                 target {
                     ... on Commit {
-                        history(first: 100, after: $cursor) {
+                        history(first: 300, after: $cursor) {
                             totalCount
                             edges {
                                 node {
