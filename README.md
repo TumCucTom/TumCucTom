@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&width=1000&lines=Hello,+I+am+Thomas+Bale;www.thomasbale.com)](https://git.io/typing-svg)
+<!---[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&width=1000&lines=Hello,+I+am+Thomas+Bale;www.thomasbale.com)](https://git.io/typing-svg)--->
 
 <p align="center">
     <a href="https://github.com/TumCucTom/TumCucTom">
@@ -11,6 +11,6 @@
     </a>
 </p>
 
-<h2> Thanks for visiting my profile. </h2>
+## Thanks for visiting my profile. You can also checkout my [portfolio website](https://www.thomasbale.com)!
 <h2><a href="https://en.wikipedia.org/wiki/Tam_c%C3%BAc">P.S. What's my github name about?</a></h2>
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
