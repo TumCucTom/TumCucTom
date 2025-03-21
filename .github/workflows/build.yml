@@ -32,13 +32,11 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ secrets.USER_NAME }}
         run: python today.py
-      - name: Commit
-        run: |-
-          git config --global pull.rebase false
-          git pull
-          git add .
-          git diff
+      - name: Commit and Push Changes
+        run: |
           git config --global user.email "github-actions-bot@TumCucTom.github.io"
           git config --global user.name "TumCucTom/GitHub-Actions-Bot"
-          git commit -m "Updated README" -a || echo "No changes to commit"
+          git add .
+          git diff --quiet && echo "No changes to commit" || git commit -m "Updated README"
           git push
+
