@@ -117,7 +117,7 @@ def recursive_loc(owner, repo_name, data, cache_comment, addition_total=0, delet
             defaultBranchRef {
                 target {
                     ... on Commit {
-                        history(first: 300, after: $cursor) {
+                        history(first: 400, after: $cursor) {
                             totalCount
                             edges {
                                 node {
@@ -161,7 +161,8 @@ def loc_counter_one_repo(owner, repo_name, data, cache_comment, history, additio
     only adds the LOC value of commits authored by me
     """
     for node in history['edges']:
-        if node['node']['author']['user'] == OWNER_ID:
+        author_user = node['node']['author']['user']
+        if author_user and author_user['login'] == USER_NAME:
             my_commits += 1
             addition_total += node['node']['additions']
             deletion_total += node['node']['deletions']
@@ -453,8 +454,8 @@ if __name__ == '__main__':
     total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
     commit_data, commit_time = perf_counter(commit_counter, 7)
-    star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
-    repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
+    star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
+    repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
     follower_data, follower_time = perf_counter(follower_getter, USER_NAME)
 

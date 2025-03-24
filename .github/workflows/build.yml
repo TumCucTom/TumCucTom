@@ -16,11 +16,11 @@ jobs:
         with:
           fetch-depth: 1
       - name: Get Python 3.8
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.8'
       - name: Configure pip cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/cache/requirements.txt') }}
@@ -32,11 +32,11 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ secrets.USER_NAME }}
         run: python today.py
-      - name: Commit
-        run: |-
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.email "152705691+TumCucTom@users.noreply.github.com"
+          git config --global user.name "Thomas Bale"
           git add .
-          git diff
-          git config --global user.email "github-actions-bot@TumCucTom.github.io"
-          git config --global user.name "TumCucTom/GitHub-Actions-Bot"
-          git commit -m "Updated README" -a || echo "No changes to commit"
+          git commit -m "Automatic update"
           git push
+
