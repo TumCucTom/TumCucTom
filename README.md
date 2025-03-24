@@ -5,7 +5,6 @@
 <p align="center">
     <a href="https://github.com/TumCucTom/TumCucTom">
       <picture align="center">
-        <source align="center" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TumCucTom/TumCucTom/main/dark_mode.svg">
         <img align="center" alt="Thomas Bale's GitHub Profile README" src="https://raw.githubusercontent.com/TumCucTom/TumCucTom/main/light_mode.svg">
       </picture>
     </a>
