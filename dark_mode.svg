@@ -19,7 +19,7 @@ text, tspan {white-space: pre;}
 <text x="50" y="30" fill="#c9d1d9">
 <tspan x="50" y="30">thomas@bale</tspan> -———————————————————————————————————————————-—-
 <tspan x="50" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">MacOS, IOS, Linux</tspan>
-<tspan x="50" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ..................... </tspan><tspan class="value" id="age_data">19 years, 10 months, 28 days</tspan>
+<tspan x="50" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ..................... </tspan><tspan class="value" id="age_data">19 years, 10 months, 29 days</tspan>
 <tspan x="50" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">Veloworks Components, University of Bristol</tspan>
 <tspan x="50" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">ML Engineer, Co-Founder</tspan>
 <tspan x="50" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">IDEA 2023.3.2, VSCode 1.96.0</tspan>
