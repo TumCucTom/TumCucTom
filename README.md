@@ -13,4 +13,12 @@
 
 <h2 align="center"> Thanks for visiting my profile. You can also checkout my <a href="https://www.thomasbale.com">portfolio website</a>!</h2>
 <h2 align="center">P.S.  <a href="https://en.wikipedia.org/wiki/Tam_c%C3%BAc">What's my github name about?</a></h2>
+<p align="center">
+    <a href="https://github.com/TumCucTom/TumCucTom">
+      <picture align="center">
+        <img align="center" alt="Profile views" src="https://komarev.com/ghpvc/?username=tumcuctom&color=blue&style=for-the-badge">
+      </picture>
+    </a>
+</p>
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
+
